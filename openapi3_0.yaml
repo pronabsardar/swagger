@@ -1,0 +1,476 @@
+openapi: 3.0.1
+info:
+  title: CIQ Excel_v1
+  description: ""
+  version: "1.0"
+servers:
+- url: https://172.29.73.91:38066/Excel
+- url: http://172.29.73.91:38066/Excel
+paths:
+  /221/{default}:
+    get:
+      operationId: 221_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+    post:
+      operationId: 221_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+  /103/{default}:
+    get:
+      operationId: 103_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        200:
+          description: OK
+          content: {}
+        default:
+          description: success
+          content: {}
+    post:
+      operationId: 103_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        201:
+          description: Created
+          content: {}
+        default:
+          description: success
+          content: {}
+  /118/{default}:
+    get:
+      operationId: 118_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        200:
+          description: OK
+          content: {}
+        default:
+          description: success
+          content: {}
+    post:
+      operationId: 118_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        201:
+          description: Created
+          content: {}
+        default:
+          description: success
+          content: {}
+  /218/{default}:
+    get:
+      operationId: 218_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        200:
+          description: OK
+          content: {}
+        default:
+          description: success
+          content: {}
+    post:
+      operationId: 218_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        201:
+          description: Created
+          content: {}
+        default:
+          description: success
+          content: {}
+  /205/{default}:
+    get:
+      operationId: 205_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+    post:
+      operationId: 205_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+  /226/{default}:
+    get:
+      operationId: 226_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+    post:
+      operationId: 226_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+  /106/{default}:
+    get:
+      operationId: 106_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        200:
+          description: OK
+          content: {}
+        default:
+          description: success
+          content: {}
+    post:
+      operationId: 106_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        201:
+          description: Created
+          content: {}
+        default:
+          description: success
+          content: {}
+  /10.0.0.0/SettingsWebServiceForMI.asmx:
+    get:
+      operationId: SettingsWebServiceForMI.asmx_get
+      responses:
+        200:
+          description: OK
+          content: {}
+        default:
+          description: success
+          content: {}
+    post:
+      operationId: SettingsWebServiceForMI.asmx_post
+      responses:
+        201:
+          description: Created
+          content: {}
+        default:
+          description: success
+          content: {}
+  /225/{default}:
+    get:
+      operationId: 225_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+    post:
+      operationId: 225_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+  /206/{default}:
+    get:
+      operationId: 206_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        200:
+          description: OK
+          content: {}
+        default:
+          description: success
+          content: {}
+    post:
+      operationId: 206_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        201:
+          description: Created
+          content: {}
+        default:
+          description: success
+          content: {}
+  /224/{default}:
+    get:
+      operationId: 224_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+    post:
+      operationId: 224_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+  /207/{default}:
+    get:
+      operationId: 207_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+    post:
+      operationId: 207_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+  /227/{default}:
+    get:
+      operationId: 227_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+    post:
+      operationId: 227_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+  /223/{default}:
+    get:
+      operationId: 223_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+    post:
+      operationId: 223_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+  /222/{default}:
+    get:
+      operationId: 222_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+    post:
+      operationId: 222_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: successful operation
+          content: {}
+  /10.0.0.0/SettingsWebService.asmx:
+    get:
+      operationId: SettingsWebService.asmx_get
+      responses:
+        200:
+          description: OK
+          content: {}
+        default:
+          description: success
+          content: {}
+    post:
+      operationId: SettingsWebService.asmx_post
+      responses:
+        201:
+          description: Created
+          content: {}
+        default:
+          description: success
+          content: {}
+  /203/{default}:
+    get:
+      operationId: 203_get
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        200:
+          description: OK
+          content: {}
+        default:
+          description: success
+          content: {}
+    post:
+      operationId: 203_post
+      parameters:
+      - name: default
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        201:
+          description: Created
+          content: {}
+        default:
+          description: success
+          content: {}
+components: {}
+x-axway:
+  serviceType: rest
+  basePaths:
+  - https://172.29.73.91:38066
+  - http://172.29.73.91:38065
+  expired: false
+  retirementDate: 0
+  corsEnabled: true
+  deprecated: false
+  availableSDK:
+    ios-swift: /discovery/sdk/c6207ad7-2cd3-4234-a2f5-a562ed8ea357/ios-swift
+    titanium: /discovery/sdk/c6207ad7-2cd3-4234-a2f5-a562ed8ea357/titanium
+    android: /discovery/sdk/c6207ad7-2cd3-4234-a2f5-a562ed8ea357/android
+    nodejs: /discovery/sdk/c6207ad7-2cd3-4234-a2f5-a562ed8ea357/nodejs
+  apiResourceType: swagger11ex
+  id: c6207ad7-2cd3-4234-a2f5-a562ed8ea357
+  state: unpublished
